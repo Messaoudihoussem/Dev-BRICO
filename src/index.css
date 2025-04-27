@@ -1,0 +1,44 @@
+/* Reset / base */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: white;
+  color: #000000;
+}
+
+/* Remove weird flex center from body */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* Links basic style */
+a {
+  font-weight: 500;
+  color: #1922A0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Reset button style */
+button {
+  all: unset;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* h1, h2, h3 default styles */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Optional small reset */
+* {
+  box-sizing: border-box;
+}
